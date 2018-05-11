@@ -66,6 +66,13 @@
   text-align: center;
 }
 
+.body.ct {
+  background-image: url('../images/Bitmap.png');
+  background-position: -41px 82px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .section {
   margin-top: 0px;
   padding-top: 0px;
@@ -126,6 +133,10 @@
 
 .section.project {
   padding-bottom: 0px;
+}
+
+.section.resume {
+  background-color: #9b9b9b;
 }
 
 .slide {
@@ -1058,6 +1069,11 @@
   margin-bottom: 50px;
 }
 
+.image-31 {
+  border: 1px none #000;
+  background-color: #4a4a4a;
+}
+
 @media (max-width: 991px) {
   .section.hero {
     padding-top: 40px;
@@ -1407,6 +1423,10 @@
     font-size: 13px;
     line-height: 22px;
   }
+  .form {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1707,9 +1727,15 @@
     padding-left: 18px;
   }
   .text-block-22 {
+    margin-right: 10%;
+    margin-left: 10%;
     line-height: 20px;
   }
   .paragraph-6 {
     line-height: 22px;
+  }
+  .form {
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
