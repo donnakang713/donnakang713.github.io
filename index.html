@@ -1,87 +1,97 @@
-<body class="body">
-  <div data-collapse="tiny" data-animation="default" data-duration="400" class="nav-bar w-nav">
-    <div class="container-2 w-container"><a href="/" class="brand w-nav-brand"><img src="images/logo-final.png" width="36.5" class="image-5"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="#Projects" class="nav-link projects w-nav-link">Projects</a><a href="/home-copy" class="nav-link about w-nav-link">About</a><a href="documents/Resume-Final1.pdf" class="nav-link resume w-nav-link">Resume</a><a href="/contact-me" class="nav-link contact w-nav-link">Contact</a></nav>
-      <div class="menu-button w-nav-button">
-        <div class="menu-icon w-icon-nav-menu"></div>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Portfolio | Donna Choi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/animate.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a class="top">Projects</a></li>
+            <li><a class="top" href="about.html">About</a></li>
+            <li><a class="top" href="mailto:donnakang713@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </div>
-  <div class="section hero">
-    <div class="container w-container">
-      <h1 class="heading">Hi, I’m Donna -
-        <br>a <span class="heading-style">UX/UI Designer</span>
-        <br>based in the <span class="heading-style">San Francisco Bay Area.</span></h1>
-      <h3 class="heading-2">I design beautiful &amp; friendly user interfaces
-        <br>and create seamless user experiences.</h3><a href="#Projects" class="link">Text Link</a></div>
-  </div>
-  <div id="Projects" class="section project">
-    <div class="w-container">
-      <div class="row1 w-row">
-        <div class="w-col w-col-5">
-          <div class="div-block description-wrapper w-clearfix">
-            <h2 class="project-heading">Space</h2>
-            <p class="project-paragraph">Space is a user-friendly cloud storage application that allows users to save, create, upload, and share content in one simple interface.</p><a href="/space-case-study-1" class="button phone w-button">View Case Study</a></div>
-        </div>
-        <div class="w-col w-col-7">
-          <div><img src="images/Space-laptop.png" width="595" srcset="images/Space-laptop-p-500.png 500w, images/Space-laptop.png 552w" sizes="(max-width: 767px) 96vw, (max-width: 991px) 416.328125px, 540px" class="image-2"></div>
-        </div>
-      </div>
-      <div class="row1 w-row">
-        <div class="w-col w-col-5">
-          <div class="div-block description-wrapper w-clearfix">
-            <h2 class="project-heading">Second </h2>
-            <p class="project-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p><a href="#" class="button phone w-button">View Case Study</a></div>
-        </div>
-        <div class="w-col w-col-7">
-          <div class="div-block-2"><img src="images/third-project.png" width="608" srcset="images/third-project-p-500.png 500w, images/third-project.png 552w" sizes="(max-width: 479px) 95vw, (max-width: 767px) 96vw, (max-width: 991px) 412.328125px, 540px" class="image-3"></div>
+    </header>
+
+    <section id="Hero" class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0s">
+      <div class="container">
+        <img class=logo src=images/Home_images/doglogo.png>
+        <div class=intro>
+          <p class=h1>Herro! I'm Donna,</p>
+          <p class=h2>a UX/UI Designer based in <br>the San Francisco Bay Area.</br></p>
+          <p class=h3>Thank you for stopping by. Feel free to explore around, <br> check out my <a class=intro2 href="https://drive.google.com/file/d/1qg7x7fu5oXXCT2AyLLhhqf0H_pF5PZO8/view?usp=sharing" target="_blank">resume,</a> or connect with me via <a class=intro2 href="http://www.linkedin.com/in/donna-choi" target="_blank">LinkedIn</a>.</br>Want to chat? Simply set up a coffee date via <a class=intro2 href="mailto:donnakang713@gmail.com">email</a>.<br>We can chat about puppies all day :)</br></p>
         </div>
       </div>
-      <div class="row1 w-row">
-        <div class="w-col w-col-5">
-          <div class="div-block description-wrapper w-clearfix">
-            <h2 class="project-heading">Third </h2>
-            <p class="project-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p><a href="#" class="button phone w-button">View Case Study</a></div>
-        </div>
-        <div class="w-col w-col-7">
-          <div><img src="images/third-project.png" width="725" srcset="images/third-project-p-500.png 500w, images/third-project.png 552w" sizes="(max-width: 767px) 96vw, (max-width: 991px) 416.328125px, 540px" class="image-4"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section testimonials">
-    <div data-animation="slide" data-duration="500" data-infinite="1" class="slider w-slider">
-      <div class="mask w-slider-mask">
-        <div class="slide w-slide">
-          <p class="testimonial-quote"><em class="italic-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. </em></p>
-          <div class="text-block-2">Mike Dekker</div>
-          <div class="text-block-3">Mentor at Bloc</div>
-        </div>
-        <div class="slide w-slide">
-          <p class="testimonial-quote"><span class="italic-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. </span></p>
-          <div class="text-block-2">John Do</div>
-          <div class="text-block-3">Designer at Bloc</div>
+    </section>
+
+    <section id="SimplyHomemade">
+      <div class="container">
+        <p class=h4>My Featured Projects</p>
+        <a href=Simply_Homemade.html>
+          <img src=images/Home_images/sh_main2.png>
+        </a>
+        <div class="paragraph_wrapper">
+          <h3>Simply Homemade</h3>
+          <p>Simply Homemade is the next “Uber of home cooked meals” where users can buy and sell  home cooked meals with just a few taps on the screen. It’s easy, it’s fast, and meals are simply homemade.</p>
+          <a class="button" href=Simply_Homemade.html>Case Study<i class="fas fa-caret-right fa-fw"></i></a>
         </div>
       </div>
-      <div class="w-hidden-tiny w-slider-arrow-left">
-        <div class="icon-arrow w-icon-slider-left"></div>
+    </section>
+
+    <section id="Space">
+      <div class="container">
+        <a href=Space.html>
+          <img src=images/Home_images/space_main2.png>
+        </a>
+        <div class="paragraph_wrapper">
+          <h3>Space</h3>
+          <p>Space is a user-friendly cloud storage application that allows users to save, create, upload, and share content in one simple interface. With Space, users have secure access to their files anytime, anywhere, and with any device.</p>
+          <a class="button" href=Space.html>Case Study<i class="fas fa-caret-right fa-fw"></i></a>
+        </div>
       </div>
-      <div class="w-hidden-tiny w-slider-arrow-right">
-        <div class="icon-arrow w-icon-slider-right"></div>
+    </section>
+
+    <footer>
+      <div class=container_3>
+        <img class=footer_dog src=images/Home_images/footer_dog.png>
+        <div class=footer_info>
+          <p class=footer1>Let's Get In Touch!</p>
+          <p class=footer2>Thank you for stopping by, and I hope you enjoyed my work. Feel free to <a class=contact href="mailto:donnakang713@gmail.com">contact me</a>. I'd love to hear from you.</p>
+          <p>Designed and Developed by Donna Choi &copy; 2018</p>
+        </div>
+        <div class=links>
+          <a class=footer_icon href="http://www.linkedin.com/in/donna-choi" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a class=footer_icon href="https://github.com/donnakang713" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a>
+          <a class=footer_icon href="https://dribbble.com/donnajchoi" target="_blank">
+            <i class="fab fa-dribbble-square fa-2x"></i>
+          </a>
+          <a class=footer_resume href="https://drive.google.com/file/d/1qg7x7fu5oXXCT2AyLLhhqf0H_pF5PZO8/view?usp=sharing" target="_blank">Download Resume</a>
+        </div>
       </div>
-      <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
-    </div>
-  </div>
-  <div class="section contact">
-    <div class="w-container">
-      <h2 class="contact-header">Get In Touch</h2>
-      <h4 class="contact-message">Thank you for stopping by, and I hope you enjoyed my work. <br> Feel free to connect with me. I&#x27;d love to hear from you.</h4><a href="/contact-me" class="contact-button w-button">Contact Me</a>
-      <div class="footer"><a href="http://www.linkedin.com/in/donna-choi" class="social-media-link w-inline-block"></a><a href="https://github.com/donnakang713" class="social-media-link github w-inline-block"></a><a href="https://dribbble.com/donnajchoi" class="social-media-link dribble w-inline-block"></a>
-        <div class="copyright">Designed and Developed by Donna Choi © Copyright 2018</div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-</body>
+    </footer>
+    <script  type='text/javascript' src="js/scripts.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+
+  </body>
+</html>
